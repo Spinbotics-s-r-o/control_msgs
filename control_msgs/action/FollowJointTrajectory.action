@@ -29,6 +29,8 @@ JointTolerance[] goal_tolerance
 JointComponentTolerance[] component_goal_tolerance
 builtin_interfaces/Duration goal_time_tolerance
 
+float64 trajectory_scaling_factor
+
 ---
 int32 error_code
 int32 SUCCESSFUL = 0
